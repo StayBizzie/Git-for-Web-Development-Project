@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Offline Folder Viewer</title>
+  </head>
+  <body>
+    <main class="app">
+      <h1>Offline Folder Viewer</h1>
+      <p>
+        Pick a folder from your computer and browse files. This page is installable and
+        works offline after the first load.
+      </p>
+
+      <button id="pick-folder">Pick Folder</button>
+      <p id="status" aria-live="polite">No folder selected.</p>
+
+      <section>
+        <h2>Files</h2>
+        <ul id="file-list"></ul>
+      </section>
+
+      <section>
+        <h2>Preview</h2>
+        <pre id="preview">Select a text file to preview it here.</pre>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

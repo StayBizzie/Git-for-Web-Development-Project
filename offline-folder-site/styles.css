@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 700;
+  padding: 0.7rem 1.1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#status {
+  margin-top: 0.75rem;
+  color: #bfdbfe;
+}
+
+#file-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.file-button {
+  width: 100%;
+  text-align: left;
+  background: #334155;
+}
+
+.file-button:hover {
+  background: #475569;
+}
+
+#preview {
+  white-space: pre-wrap;
+  background: #1e293b;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  min-height: 180px;
+  overflow: auto;
+}
