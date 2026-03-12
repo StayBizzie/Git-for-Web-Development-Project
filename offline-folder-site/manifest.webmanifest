@@ -1,0 +1,10 @@
+{
+  "name": "Offline Folder Viewer",
+  "short_name": "Folder Viewer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "description": "A small website that can run offline and preview text files from a selected folder.",
+  "icons": []
+}

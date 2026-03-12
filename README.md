@@ -43,3 +43,16 @@ Stretch Git Tasks
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
 
 
+
+## Offline Folder Website
+A ready-to-run offline-friendly website is included in `offline-folder-site/`.
+
+### How to run
+1. Start a local server in this repository (service workers require HTTP):
+   ```bash
+   python3 -m http.server 8000
+   ```
+2. Open `http://localhost:8000/offline-folder-site/` in a Chromium-based browser.
+3. Click **Pick Folder** to select a local folder and browse file contents.
+
+After the first successful visit, the app shell is cached by a service worker, so the site continues to open offline.
